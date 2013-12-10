@@ -1,0 +1,24 @@
+/*
+	 CSS-Tricks Example
+	 by Chris Coyier
+	 http://css-tricks.com
+*/
+
+* { margin: 0; padding: 0; }
+body { font: 14px Georgia, serif; background: url(../images/bg.png); }
+#page-wrap { width: 700px; margin: 10px auto; }
+a { text-decoration: none; }
+h3 { margin: 0 0 10px 0; }
+
+.tabs { list-style: none; overflow: hidden; padding-left: 1px; }
+.tabs li { display: inline; }
+.tabs li a { display: block; float: left; padding: 4px 8px; color: black; border: 1px solid #ccc; background: #eee; margin: 0 0 0 -1px; }
+.tabs li a.current { background: white; border-bottom: 0; position: relative; top: 2px; z-index: 2; }
+
+.box-wrapper { -moz-box-shadow: 0 0 20px black; -webkit-box-shadow: 0 0 20px black; padding: 20px; background: white; border: 1px solid #ccc; margin: -1px 0 0 0; height: 210px; position: relative; }
+.content-box { overflow: hidden; position: absolute; top: 5px; left: 10px; width: 100%; height: 530px; }
+
+.current { z-index: 100; }
+
+.col-one, .col-two, .col-three { width: 30%; float: left; position: relative; top: 50px; }
+.col-one, .col-two { margin-right: 3%; }
